@@ -20,10 +20,10 @@ function HeaderContent() {
                 </div>
             </div>
             <div className="right-content">
-                <img src={phone} className="phone"/>
-                <img className="ring1" src={ring1} />
-                <img className="message1" src={message1} />
-                <img className="message2" src={message2} />
+                <img alt="" src={phone} className="phone"/>
+                <img alt="" className="ring1" src={ring1} />
+                <img alt="" className="message1" src={message1} />
+                <img alt="" className="message2" src={message2} />
             </div>
         </HeaderContentStyled>
     )

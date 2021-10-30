@@ -14,7 +14,7 @@ function FAQSection() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut venenatis lorem ipsum dolor sit amet, consectetur adipiscing ut venenatis lorem ut venenatis lorem ipsum
                 </p>
                 <div className="line">
-                    <img src={lines} />
+                    <img alt="" src={lines} />
                 </div>
                 <div className="question-container">
                     {

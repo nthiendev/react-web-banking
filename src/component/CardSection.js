@@ -17,7 +17,7 @@ function CardSection() {
                         </p>
                     </div>
                     <div className="card-right">
-                        <img src={card} />
+                        <img alt=""src={card} />
                     </div>
                 </div>
             </InnerLayout>

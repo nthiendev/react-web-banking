@@ -9,7 +9,7 @@ function Footer() {
             <InnerLayout>
                <div className="footer-container">
                    <div className="logo-container">
-                       <img src={logo} />
+                       <img alt="" src={logo} />
                        <p>
                            Copyright @2021 LoremIpsum. <br/>
                            All rights reserved.

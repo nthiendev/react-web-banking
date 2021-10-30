@@ -13,7 +13,7 @@ function Question({title, description}) {
                 <div className="toggle-title">
                     <h4>{title}</h4>
                     <button onClick={() => setToggle(!toggle)}>
-                        {toggle ? <img src={minus} /> : <img src={plus} className=""/>}
+                        {toggle ? <img alt="" src={minus} /> : <img alt="" src={plus} className=""/>}
                     </button>
                 </div>
                 {toggle && <p>{description}</p>}

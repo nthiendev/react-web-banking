@@ -13,42 +13,42 @@ function Card({account, amount, text, button, card, active, inactive, check,
             </h4>
             <p>{text}</p>
             <button>{button}</button>
-            <img src={card} className="card-img"/>
+            <img alt="" src={card} className="card-img"/>
             <div className="plan-container">
-                <img src={active} />
-                <img src={inactive} />
+                <img alt="" src={active} />
+                <img alt="" src={inactive} />
             </div>
             <div className="list-icon">
                 <p className="text-check">
-                    <img src={check} />
+                    <img alt="" src={check} />
                     {text1}
                 </p>
                 <p className="text-check">
-                    <img src={check} />
+                    <img alt="" src={check} />
                     {text2}
                 </p>
                 <p className="text-check">
-                    <img src={check} />
+                    <img alt="" src={check} />
                     {text3}
                 </p>
                 <p className="text-check">
-                    <img src={check} />
+                    <img alt="" src={check} />
                     {text4}
                 </p>
                 <p className="text-check">
-                    <img src={check} />
+                    <img alt="" src={check} />
                     {text5}
                 </p>
                 <p className="text-check">
-                    <img src={checkDisable} />
+                    <img alt="" src={checkDisable} />
                     {text6}
                 </p>
                 <p className="text-check">
-                    <img src={checkDisable} />
+                    <img alt="" src={checkDisable} />
                     {text7}
                 </p>
                 <p className="text-check">
-                    <img src={checkDisable} />
+                    <img alt="" src={checkDisable} />
                     {text8}
                 </p>             
             </div>

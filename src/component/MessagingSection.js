@@ -22,18 +22,18 @@ function MessagingSection() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut venenatis lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
                         <div className="img-container">
-                            <img src={avatar1} className="img-1"/>
-                            <img src={avatar2} className="img-2"/>
-                            <img src={avatar3} className="img-3"/>
-                            <img src={avatar4} className="img-4"/>
-                            <img src={avatar5} className="img-5"/>
+                            <img alt=""src={avatar1} className="img-1"/>
+                            <img alt=""src={avatar2} className="img-2"/>
+                            <img alt=""src={avatar3} className="img-3"/>
+                            <img alt=""src={avatar4} className="img-4"/>
+                            <img alt=""src={avatar5} className="img-5"/>
                             <p>+25</p>
                         </div>
-                        <img src={btnCircle} className="right-circles"/>
+                        <img alt=""src={btnCircle} className="right-circles"/>
                     </div>
                     <div className="right-item">
-                        <img src={messaging} className="img-mess"/>
-                        <img src={btnCircle} className="img-circles"/>
+                        <img alt=""src={messaging} className="img-mess"/>
+                        <img alt=""src={btnCircle} className="img-circles"/>
                     </div>
                 </div>
             </InnerLayout>

@@ -8,9 +8,9 @@ function AnimateButton({name}) {
     return (
         <AnimateButtonStyled>
             {name}
-            <img src={arrow} />
-            <img src={blob1} className="blob1" />
-            <img src={blob2} className="blob2"/>
+            <img src={arrow} alt="" />
+            <img src={blob1} alt=""  className="blob1" />
+            <img src={blob2} alt="" className="blob2"/>
         </AnimateButtonStyled>
     )
 }

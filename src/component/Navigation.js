@@ -7,7 +7,7 @@ function Navigation() {
     return (
         <NavigationStyles>
             <div className="logo">
-                <img src={logo} />
+                <img alt="" src={logo} />
             </div>
             <ul>
                 <li>
